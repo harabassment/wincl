@@ -1,0 +1,25 @@
+#pragma code_page(65001)
+1 24 "app.manifest"
+101 ICON "app.ico"
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x40004
+FILETYPE 1
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "041904B0"
+  BEGIN
+   VALUE "FileDescription", "Чисто — поиск возможных остатков программ\0"
+   VALUE "FileVersion", "1.0.0\0"
+   VALUE "ProductName", "Чисто · CleanPC\0"
+   VALUE "ProductVersion", "1.0.0\0"
+   VALUE "OriginalFilename", "CleanPC.exe\0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x419, 1200
+ END
+END
